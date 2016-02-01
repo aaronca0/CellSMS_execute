@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<config>
+	<taskexecute>
+		<default>
+			<remote_agents>
+				<taskexecute2dispatch	type="tcp_client" addr="127.0.0.1:9001" />
+				<TaskExecute2Core	type="tcp_client" addr="127.0.0.1:12899" />
+			</remote_agents>
+			<checkstatustime_sec>120</checkstatustime_sec>
+			<dest_ip>127.0.0.1:12899</dest_ip>
+		</default>
+	</taskexecute>
+</config>
